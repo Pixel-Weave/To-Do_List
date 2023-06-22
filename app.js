@@ -8,7 +8,7 @@ const date = require(__dirname + "/date.js");
 const app = express();
 
 let tasks = [];
-let workItems = [];
+var workItems = [];
 
 
 app.use(bodyParser.urlencoded({extended: true}));
