@@ -8,8 +8,7 @@ const _ = require("lodash");
 
 const app = express();
 
-let tasks = [];
-let workItems = [];
+app.set('view engine', 'ejs');
 
 
 app.use(bodyParser.urlencoded({extended: true}));
